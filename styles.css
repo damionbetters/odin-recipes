@@ -1,0 +1,94 @@
+/* ===== CSS RESET ===== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== GLOBALS ===== */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #e5e4e2;
+  background-color: #03002e;
+  min-height: 100vh;
+}
+
+main {
+  padding: 4rem;
+}
+
+/* ===== MEDIA ===== */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.steak-showcase {
+  height: auto;
+  width: 480px;
+}
+
+/* ===== FORMS ===== */
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ===== LINKS ===== */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== LISTS ===== */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ===== HEADINGS ===== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+/* ===== LAYOUT HELPERS ===== */
+
+.container {
+  width: min(120rem, 90%);
+  margin-inline: auto;
+}
