@@ -26,8 +26,8 @@ body {
   min-height: 100vh;
 }
 
-main {
-  padding: 4rem;
+section {
+  padding: 2rem 24rem 12rem 24rem;
 }
 
 /* ===== MEDIA ===== */
@@ -100,7 +100,7 @@ h6 {
   margin-inline: auto;
 }
 
-/* ===== OTHER SELECTORS ===== */
+/* ===== HERO SECTION ===== */
 .hero-section {
   background-color: #1f2937;
   color: #f9faf8;
@@ -136,4 +136,24 @@ h6 {
 /* ===== MISC. SELECTORS ===== */
 .hero-pic {
   border-radius: 24rem;
+}
+
+/* ===== INFORMATION SECTION ===== */
+.info-section {
+  background-color: white;
+  color: #1f2937;
+  text-align: center;
+}
+.info-header {
+  font-weight: 900;
+  font-size: 36px;
+  padding: 4rem 0;
+}
+.illustrations {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image-box {
+  width: 200px;
+  padding: 10px;
 }
