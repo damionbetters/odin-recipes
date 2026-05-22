@@ -22,7 +22,6 @@ body {
   font-size: 2rem;
   line-height: 1.5;
   color: #e5e4e2;
-  background-color: #03002e;
   min-height: 100vh;
 }
 
@@ -106,7 +105,8 @@ h6 {
   color: #f9faf8;
   padding: 2rem 24rem 12rem 24rem;
 }
-.hero-container {
+.hero-container,
+.cta-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,7 +114,8 @@ h6 {
   gap: 4rem;
 }
 .hero-content,
-.hero-image {
+.hero-image,
+.cta-box {
   justify-content: center;
   width: 50vw;
 }
@@ -140,7 +141,6 @@ h6 {
 
 /* ===== INFORMATION SECTION ===== */
 .info-section {
-  background-color: white;
   color: #1f2937;
   text-align: center;
 }
@@ -156,4 +156,59 @@ h6 {
 .image-box {
   width: 200px;
   padding: 10px;
+}
+
+/* ===== QUOTE SECTION ===== */
+blockquote {
+  width: 40vw;
+}
+.quote-sec {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 24rem 12rem 24rem;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  justify-content: center;
+}
+figcaption {
+  font-size: 2rem;
+  color: #1f2937;
+  font-weight: 300;
+  text-align: right;
+}
+blockquote p::before {
+  content: "\201C";
+}
+blockquote p::after {
+  content: "\201D";
+}
+
+/* ===== CTA SECTION ===== */
+.cta-sec {
+  background-color: white;
+  padding-top: 8rem;
+}
+.cta-box {
+  background-color: #3882f6;
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+}
+.cta-right {
+  align-items: center;
+}
+.cta-btn1 {
+  border: white 2px solid;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  width: 12rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  display: flex;
+  padding: 2rem 0;
+  background-color: #1f2937;
+  justify-content: center;
 }
